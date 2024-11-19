@@ -26,7 +26,6 @@ networks:                           # Network interface configuration
   proxy-redirect:                   # Reference 'proxy-redirect' as predefined network
     name: proxy-redirect
     driver: bridge
-    external: true
 
 ###### VOLUMES ######
 volumes:                            # Volumes for containers
